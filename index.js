@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 
 var defaultOptions = {
   watch: false,
-  src: ['./app/app.ts'],
+  src: ['./app/app.ts', './node_modules/es6-shim.min.js'],
   outputPath: 'www/build/js/',
   outputFile: 'app.bundle.js',
   minify: false,
